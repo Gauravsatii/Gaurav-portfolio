@@ -1,0 +1,661 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100vw;
+    height: auto;
+
+    
+
+}
+
+.hero{
+    display: flex;
+    height: 50vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+   
+
+ 
+    
+}
+
+.hero>h1{
+    font-size: 10vh;
+    font-family: 'Almarai';
+    z-index: 99;
+   
+    
+}
+.developer{
+    margin-left: 3vw;
+}
+.coder{
+    margin-right: 10vw;
+    color: rgb(0, 170, 255);
+}
+.hero-image{
+    height: 45vh;
+    width: 40vw;
+ 
+    margin-left: -3vw;
+    background: url('https://th.bing.com/th/id/OIG.t5FgAhDyRwve9Kt1CM5X?w=270&h=270&c=6&r=0&o=5&pid=ImgGn');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all ease 0.5s;
+
+    
+}
+.hero-image:hover{
+    scale: 1.1;
+}
+
+.about {
+    height: 50vh;
+    width: 100vw;
+    background-color: rgba(250, 235, 215, 0.23);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+    
+}
+.about-image{
+    height:38vh;
+    width: 25vw;
+
+    
+}
+
+.about-description{
+   
+    height: 38vh;
+    width: 25vw;
+    
+}
+.about-description>h1{
+    font-size: 8vh;
+    font-family:'Tilt Neon' ;
+    text-transform: uppercase;
+
+}
+.about-description>h2{
+    margin-top: 3vh;
+    font-size: 6vh;
+    font-family: 'Tilt Neon';
+
+}
+.about-description>h2>span{
+    color: rgb(0, 106, 255);
+}
+.about-description>h3{
+    margin-top: 3vh;
+    color: rgba(0, 0, 0, 0.837);
+    font-family: 'Mukta';
+    
+}
+hr{
+    width: 80vw;
+    margin: auto;
+}
+
+.hobby{
+    height: 100vh;
+    width: 100vw;
+    margin-top: 30vh;
+    display: flex;
+    gap: 10vw;
+    background-color: rgba(255, 228, 196, 0.192);
+
+}
+.hobby-description{
+   
+    height: 40vh;
+    width: 30vw;
+    margin-top: 30vh;
+    margin-left: 10vw;
+
+}
+
+.hobby-description>h1{
+    
+margin-bottom: 4vh;
+line-height:60px;
+font-family: 'Mukta';
+font-size: 8vh;
+width: 35vw;
+color: rgba(0, 0, 0, 0.822);
+
+
+}
+.hobby-description>h1>span{
+    color: rgb(255, 47, 0);
+}
+.hobby-description>p{
+    color: rgba(0, 0, 0, 0.815);
+    font-family: 'Playpen Sans';
+    font-weight: bolder;
+    
+}
+.s-button{
+    height: 5vh;
+    width:7vw;
+    background-color: rgba(13, 13, 13, 0.179);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5VH;
+    font-size: 2vh;
+    background-color: rgba(0, 221, 255, 0.738);
+    font-family: 'Mukta';
+    transition: all ease 0.5s;
+}
+
+.card{
+    height: 30vh;
+    width: 20vw;
+
+    box-shadow: 10px 10px rgba(128, 128, 128, 0.364);
+  
+}
+
+
+
+
+#card1{
+    margin-top: 10vh;
+    background: url('https://img.lovepik.com/photo/40015/1789.jpg_wh860.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: all ease 0.5s;
+
+}
+#card1:hover{
+    margin-bottom: 2vh;
+    scale: 1.2;
+}
+#card2:hover{
+    margin-bottom: 2vh;
+    scale: 1.2;
+}
+#card3:hover{
+    margin-bottom: 2vh;
+    scale: 1.2;
+}
+#card4:hover{
+    margin-bottom: 2vh;
+    scale: 1.2;
+}
+#card2{
+    margin-top: 15vh;
+    background: url('https://msatechnosoft.in/blog/wp-content/uploads/2018/09/Data-Structure-tutorial-MSA-Technosoft.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: all ease 0.5s;
+}
+#card3{
+    margin-top: -5vh;
+    background: url('https://www.tangytip.com/wp-content/uploads/2020/07/competitive-programming.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: all ease 0.5s;
+}
+#card4{
+    margin-top: 0vh;
+    background: url('https://th.bing.com/th/id/OIP.0090wkgaSGC3wRyNRU5Y7wAAAA?pid=ImgDet&rs=1');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: all ease 0.5s;
+    
+}
+
+.images{
+    display: flex;
+    width: 60vw;
+    height: 60vh;
+   flex-wrap: wrap;
+   gap: 3vw;
+
+}
+
+.projects{
+    height: 100vh;
+    background-color: rgba(251, 192, 134, 0.315);
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+
+    
+}
+.projects hr{
+    width: 25vw;
+    border: 1px solid rgba(1, 1, 1, 0.234);
+}
+
+.p-box1>img:hover{
+    margin-top: 8vh;
+
+}
+.p-box2>img:hover{
+    margin-top: 8vh;
+
+}
+.p-box3>img:hover{
+    margin-top: 8vh;
+
+}
+
+.p-box1{
+    width: 25vw;
+   
+    height: 80vh;
+    
+}
+.p-box2{
+    width: 25vw;
+    height: 50vh;
+    margin-top: -5vh;
+}
+.p-box3{
+    margin-top: -30vh;
+    width: 25vw;
+  
+    height: 50vh;
+}
+
+.p-box1>h1{
+    font-size: 10vh;
+    font-family: 'Mukta';
+    font-weight: 600;
+    line-height: 13vh;
+}
+.p-box1>h1>span{
+    font-size: 10vh;
+    font-family: 'Mukta';
+    font-weight: 600;
+    line-height: 13vh;
+    color: rgb(255, 64, 0);
+}
+.p-box1>h3{
+
+    font-size: 3.5vh;
+    font-family: 'Playpen Sans';
+    font-weight: bold;
+    line-height: 5vh;
+    margin-top: 5vh;
+    color: rgba(0, 0, 0, 0.918);
+}
+
+
+.p-box1>h3>a>img{
+    height: 50px;
+    width: 50px;
+    margin-left: 5vw;
+    margin-top: 1.5vh;
+    color: black;
+    rotate: 30deg;
+
+  
+
+}
+
+
+.p-box2>h3>a>img{
+    height: 50px;
+    width: 50px;
+    margin-left: 5vw;
+    margin-top: 1.5vh;
+   
+    rotate: 30deg;
+
+}
+
+.p-box3>h3>a>img{
+    height: 50px;
+    width: 50px;
+    margin-left: 5vw;
+    margin-top: 1.5vh;
+    rotate: 30deg;
+
+  
+
+}
+
+.p-box1>img{
+    height: 40vh;
+    width: 100%;
+    margin-top: 3vh;
+    transition: all ease 0.5s;
+}
+.p-box2>h3{
+    font-size: 3.5vh;
+    font-family: 'Playpen Sans';
+    font-weight: bold;
+    line-height: 5vh;
+    margin-top: 5vh;
+    color: rgba(0, 0, 0, 0.918);
+}
+
+
+.p-box2>img{
+    height: 40vh;
+    width: 100%;
+    margin-top: 5vh;
+    transition: all ease 0.5s;
+}
+.p-box3>h3{
+    font-size: 3.5vh;
+    font-family: 'Playpen Sans';
+    font-weight: bold;
+    line-height: 5vh;
+    margin-top: 5vh;
+  color: black;
+}
+
+.p-box3>img{
+    height: 40vh;
+    width: 100%;
+    margin-top: 5vh;
+    transition: all ease 0.5s;
+}
+
+
+
+.services{
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+   
+  
+}
+
+.services1{
+    height: 50vh;
+    width: 60vw;
+ 
+    background-color: rgba(250, 229, 195, 0.238);
+
+}
+.services2{
+    height: 50vh;
+    width: 40vw;
+    background-color: rgba(255, 229, 195, 0.238);
+
+}
+.services-h1{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.services-h1>h1{
+    font-size: 10vh;
+    text-transform: uppercase;
+    margin-top: -35vh;
+    font-family: 'Mukta';
+   
+    color: rgba(0, 0, 0, 0.849);
+}
+.services-h1>h1>span{
+    color:rgba(255, 94, 0, 0.911);
+    transition: all ease 0.5s;
+
+}
+.services-h1>h1>span:hover{
+    padding: 12px;
+}
+.services-h1>h1>.sspan{
+    color: rgb(0, 174, 255);
+    transition: all ease 0.5s;
+}
+.services-h1>h1>.sspan:hover{
+    padding: 12px;
+}
+
+.services-description{
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.services-description1>h1{
+   
+    
+    text-transform: uppercase;
+    font-size: 8vh;
+    font-family: 'Mukta';
+    margin-top:10vh;
+    
+}
+.services-description1>p{
+    width: 30vw;
+   font-family: 'Playpen Sans';
+    margin-top: 5vh;
+    color: rgb(0, 0, 0);
+    font-size: 2vh;
+    
+}
+
+.services-description1{
+    height: 60vh;
+    width: 40vw;
+    
+    margin-left: 10vw;
+}
+.services-description>img{
+    height: 50vh;
+    width: 50 vw;
+}
+
+.skills{
+    height:80vh ;
+    width: 100vw;
+    
+}
+.skills>h1{
+    margin-top: 20vh;
+    text-align: center;
+    
+    font-family: 'Mukta';
+    font-size: 13vh;
+}
+
+.skills>h1>span{
+    color: rgba(0, 170, 255, 0.853);
+    transition: all ease 0.4s;
+}
+.skills>h1>span:hover{
+
+padding: 12px;
+
+}
+
+.sbox-sec1{
+  
+    height: 30vh;
+    width: 100vw;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8vh;
+}
+
+.sbox-sec2{
+
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8vh;
+}
+.sbox-sec3{
+   
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8vh;
+}
+
+.sbox{
+    height: 30vh;
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all ease 0.5s;
+}
+.sbox:hover{
+    margin-bottom: 12vh;
+}
+
+.sbox>img{
+    height: 20vh;
+    width: 10vw;
+   
+}
+
+.s-button>a{
+    text-decoration: none;
+    font-family: 'Mukta';
+    color: black;
+   
+
+}
+.s-button:hover{
+    background-color: rgba(255, 72, 0, 0.7);
+}
+
+
+.footer{
+    margin-top: 15vh;
+    height: 60vh;
+    width: 100vw;
+    background-color: rgba(251, 192, 134, 0.327);
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+}
+
+.footer>h1{
+
+    width: 70vw;
+    text-align: center;
+    font-family: 'Ibarra Real Nova';
+    font-weight: 500;
+    font-size: 6vh;
+
+
+}
+
+.footer>h4{
+    color: black;
+    font-family: 'Mukta';
+    font-size: 2vh;
+    margin-top: 3vh;
+    font-weight: 100;
+
+}
+
+.footer-button{
+    height: 6vh;
+    width: 10vw;
+    background-color: black;
+    margin-top: 3vh;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease 0.5s;
+}
+.footer-button:hover{
+    background-color: rgb(0, 0, 0);
+    color: red;
+}
+.footer-button>a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-button>a>p{
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-family: 'Mukta';
+    transition: all ease 0.3s;
+}
+.footer-button>a>p:hover{
+    color:red;
+}
+
+.footer-navigator{
+    height: 18vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.914);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+    
+}
+.footer-navigator>a{
+    background-image: none;
+    height: 40px;
+    width: 40px;
+    border-radius:60% ;
+    background-color:black;
+    transition: all ease 0.5s;
+    margin-top: -5vh;
+    
+
+}
+.footer-navigator>a>img{
+    height: 40px;
+    width: 40px;
+  background-image: none;
+  border-radius: 50%;
+  background-color:black;
+
+   
+    
+}
+.footer-navigator>a:hover{
+    margin-bottom: 4vh;
+    
+}
+
+.main>p{
+    text-align: center;
+    font-size: 5vh;
+    color: rgb(248, 246, 246);
+    font-family: 'Mukta';
+    font-size: 2vh;
+    margin-top: -5vh;
+}
+
+
+
+
+
